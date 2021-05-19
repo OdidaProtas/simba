@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b0fecc4f-d59f-4761-869f-7c6e7659fabe" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="ProjectId" id="1shIEeRpgyhJOde1aavlmnNZzzw" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\Dreamer\WebstormProjects\portfolio-e\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Dreamer\WebstormProjects\temp\src\assets" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.npm start">
+    <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="makemigrations" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../portfolio-e/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="makemigrations" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="migrate" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../portfolio-e/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="migrate" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="npm start" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/portfolio-e/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:dev (1)" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/../portfolio-e/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <configuration name="start:dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/portfolio-e/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start:dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start:dev (1)" />
+        <item itemvalue="npm.migrate" />
+        <item itemvalue="npm.makemigrations" />
+        <item itemvalue="npm.start:dev" />
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b0fecc4f-d59f-4761-869f-7c6e7659fabe" name="Default Changelist" comment="" />
+      <created>1621318284006</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1621318284006</updated>
+      <workItem from="1621318285078" duration="22563000" />
+      <workItem from="1621364363620" duration="16816000" />
+      <workItem from="1621409563848" duration="737000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="804" y="139" key="FileChooserDialogImpl" timestamp="1621371268048">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="804" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1621371268048" />
+    <state width="659" height="193" key="GridCell.Tab.0.bottom" timestamp="1621409743300">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="659" height="193" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1621409743300" />
+    <state width="659" height="193" key="GridCell.Tab.0.center" timestamp="1621409743300">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="659" height="193" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1621409743300" />
+    <state width="659" height="193" key="GridCell.Tab.0.left" timestamp="1621409743300">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="659" height="193" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1621409743300" />
+    <state width="659" height="193" key="GridCell.Tab.0.right" timestamp="1621409743300">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state width="659" height="193" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1621409743300" />
+    <state x="814" y="282" key="git4idea.ui.GitResetDialog" timestamp="1621409493981">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="814" y="282" key="git4idea.ui.GitResetDialog/0.0.1366.768@0.0.1366.768" timestamp="1621409493981" />
+    <state x="687" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1621366888481">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="687" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1621366888481" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/../portfolio-e/src/controller/UserController.ts</url>
+          <line>28</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
