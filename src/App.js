@@ -20,14 +20,18 @@ const MessagesList = () => {
 const LinkedinCard = () => {
     return (
         <div className="w3-container">
-            <p><i className="fa fa-linkedin"/></p>
+            <p>
+                <i className="fa fa-linkedin"/>
+            </p>
             <img
                 src={"https://media-exp1.licdn.com/dms/image/C4D03AQH8YZCXFqszDA/profile-displayphoto-shrink_200_200/0/1621316374390?e=1626912000&v=beta&t=Uvs0beI41LMBbc2OwYCaqJR9HECgb51OaGx7-0yHxEU"}
-                className="w3-circle" alt="Avatar" style={{width: "50%"}}/><br/>
+                className="w3-circle" alt="Avatar" style={{width: "50%"}}/>
+            <br/>
             <span>Brian Odida . 1st</span>
             <p>Dev</p>
             <a href={"https://www.linkedin.com/in/brian-odida/"}
-               className="w3-margin w3-button  w3-border w3-round-xxlarge">Connect</a>
+               className="w3-margin w3-button  w3-border w3-round-xxlarge">Connect
+            </a>
         </div>
     )
 }
@@ -38,10 +42,14 @@ const RightColumn = () => {
             <div className="w3-card w3-round w3-white w3-center">
                 <div className="w3-container">
                     <p>Github</p>
-                    <p><strong>OdidaProtas</strong></p>
                     <p>
-                        <a href="https://github.com/OdidaProtas" className="w3-button w3-block w3-theme-l4"><i
-                            className="fa fa-github"/></a>
+                        <strong>OdidaProtas</strong>
+                    </p>
+                    <p>
+                        <a href="https://github.com/OdidaProtas" className="w3-button w3-block w3-theme-l4">
+                            <i
+                                className="fa fa-github"/>
+                        </a>
                     </p>
                 </div>
             </div>
@@ -57,7 +65,9 @@ const RightColumn = () => {
             <br/>
 
             <div className="w3-card w3-round w3-white w3-padding-32 w3-center">
-                <p><i className="fa fa-moon w3-xxlarge"/></p>
+                <p>
+                    <i className="fa fa-moon w3-xxlarge"/>
+                </p>
             </div>
 
         </div>
@@ -88,8 +98,8 @@ const CommentFeedbackEditor = () => {
                     <i className="fa fa-comment"/>
                 }
                 <span style={{marginLeft: 10}}>
-                        {feedback.open ? "Submit Feedback" : "Feedback"}
-                    </span>
+                    {feedback.open ? "Submit Feedback" : "Feedback"}
+                </span>
             </button>
         </form>
     )
@@ -107,13 +117,15 @@ const SMTPBackend = () => {
     }
 
     return (
-        <div className="w3-container w3-card w3-white w3-round w3-margin"><br/>
+        <div className="w3-container w3-card w3-white w3-round w3-margin">
+            <br/>
             <ProjectTitle title="SMTP Email"/>
             <hr className="w3-clear"/>
             <div className="w3-row-padding" style={{margin: "0 -16px"}}>
                 <form onSubmit={handleSubmit} className="w3-container">
                     <p>Get a random quote via email.</p>
-                    <p><label>Email Address</label>
+                    <p>
+                        <label>Email Address</label>
                         <input required onChange={handleChange} type="email" className="w3-input w3-border"
                                name="phoneNumber"/>
                     </p>
@@ -146,18 +158,21 @@ const STKPush = () => {
 
 
     return (
-        <div className="w3-container w3-card w3-white w3-round w3-margin"><br/>
+        <div className="w3-container w3-card w3-white w3-round w3-margin">
+            <br/>
             <ProjectTitle title="STK Push. LNMExpress"/>
             <hr className="w3-clear"/>
             <div className="w3-row-padding" style={{margin: "0 -16px"}}>
                 <form onSubmit={handleSubmit} className="w3-container">
                     <p>A simple implementation of Safaricom's MPESA Daraja API, for payment requests</p>
-                    <p><label>Phone Number</label>
+                    <p>
+                        <label>Phone Number</label>
                         <input onChange={handleChange} type="number" className="w3-input w3-border"
                                name="phoneNumber"/>
                     </p>
 
-                    <p><label>Amount</label>
+                    <p>
+                        <label>Amount</label>
                         <input onChange={handleChange} type="number" className="w3-input w3-border" name="amount"/>
                     </p>
                     <p>
@@ -181,8 +196,11 @@ const ProjectTitle = (props) => {
     return (
         <React.Fragment>
             <img src={node} alt="Avatar" className="w3-left w3-circle w3-margin-right" style={{width: "60px"}}/>
-            <span className="w3-right w3-opacity"><i className="fa fa-github"/></span>
-            <h4>{title}</h4><br/>
+            <span className="w3-right w3-opacity">
+                <i className="fa fa-github"/>
+            </span>
+            <h4>{title}</h4>
+            <br/>
         </React.Fragment>
     )
 }
@@ -308,12 +326,20 @@ const LeftColumn = () => {
                 <div className="w3-card w3-round w3-white">
                     <div className="w3-container">
                         <h4 className="w3-center">Brian Odida</h4>
-                        <p className="w3-center"><img src={avatar} className="w3-circle"
-                                                      style={{height: "106px", width: "106px"}}
-                                                      alt="Avatar"/></p>
+                        <p className="w3-center">
+                            <img src={avatar} className="w3-circle"
+                                 style={{height: "106px", width: "106px"}}
+                                 alt="Avatar"/>
+                        </p>
                         <hr/>
-                        <p><i className="fa fa-tag fa-fw w3-margin-right w3-text-theme"></i> Software Developer</p>
-                        <p><i className="fa fa-map-pin fa-fw w3-margin-right w3-text-theme"></i> Nairobi, Kenya</p>
+                        <p>
+                            <i className="fa fa-tag fa-fw w3-margin-right w3-text-theme"></i>
+                            Software Developer
+                        </p>
+                        <p>
+                            <i className="fa fa-map-pin fa-fw w3-margin-right w3-text-theme"></i>
+                            Nairobi, Kenya
+                        </p>
                         <p><i className="fa fa-envelope fa-fw w3-margin-right w3-text-theme"></i>bryodiiidah@gmail.com
                         </p>
                     </div>
@@ -323,8 +349,10 @@ const LeftColumn = () => {
                 <div className="w3-card w3-round">
                     <div className="w3-white">
                         <button onClick={() => toggle("accordion1")}
-                                className="w3-button w3-block w3-theme-l1 w3-left-align"><i
-                            className="fa fa-code fa-fw w3-margin-right"></i> Programming Languages
+                                className="w3-button w3-block w3-theme-l1 w3-left-align">
+                            <i
+                                className="fa fa-code fa-fw w3-margin-right"></i>
+                            Programming Languages
                         </button>
                         {state.accordion1 ?
                             <div id="Demo1" className="w3-container">
@@ -344,14 +372,16 @@ const LeftColumn = () => {
                         }
 
                         <button onClick={() => toggle("accordion2")}
-                                className="w3-button w3-block w3-theme-l1 w3-left-align"><i
-                            className="fa fa-cubes fa-fw w3-margin-right"></i> Frameworks and Libraries
+                                className="w3-button w3-block w3-theme-l1 w3-left-align">
+                            <i
+                                className="fa fa-cubes fa-fw w3-margin-right"></i>
+                            Frameworks and Libraries
                         </button>
                         {state.accordion2 ?
                             <div id="Demo2" className=" w3-container">
                                 <p>React.js, Angular, Vue.js, React Native</p>
                                 <p>Node.js, Spring Boot, Spark, Django</p>
-                                <p>Android, Flutter, Capacitor </p>
+                                <p>Android, Flutter, Capacitor</p>
                                 <p>Bootstrap, Material UI, React Native Paper</p>
                                 <p>TypeORM, Express, Socket.io</p>
                                 <p>Tensorflow, PyTorch, OpenCV</p>
@@ -362,8 +392,10 @@ const LeftColumn = () => {
                         }
 
                         <button onClick={() => toggle("accordion3")}
-                                className="w3-button w3-block w3-theme-l1 w3-left-align"><i
-                            className="fa fa-wrench fa-fw w3-margin-right"></i> Other Tools / Skills
+                                className="w3-button w3-block w3-theme-l1 w3-left-align">
+                            <i
+                                className="fa fa-wrench fa-fw w3-margin-right"></i>
+                            Other Tools / Skills
                         </button>
                         {state.accordion3 ?
                             <div id="Demo3" className="w3-container">
@@ -403,7 +435,9 @@ const LeftColumn = () => {
 
                 <div
                     className="w3-container w3-display-container w3-round w3-theme-l4 w3-border w3-theme-border w3-margin-bottom w3-hide-small">
-                    <p><strong>Hey!</strong></p>
+                    <p>
+                        <strong>Hey!</strong>
+                    </p>
                     <p>People are looking at your profile. Find out who.</p>
                 </div>
             </div>
@@ -445,6 +479,7 @@ function App() {
     return (
         <div>
             <NavBar/>
+            <p className="w3-margin">This site is under construction</p>
             <PageContainer/>
             <MessagesList/>
             <Footer/>
