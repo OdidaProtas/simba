@@ -12,6 +12,7 @@
   <component name="ChangeListManager">
     <list default="true" id="b0fecc4f-d59f-4761-869f-7c6e7659fabe" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -148,7 +149,7 @@
       <updated>1621318284006</updated>
       <workItem from="1621318285078" duration="22563000" />
       <workItem from="1621364363620" duration="16816000" />
-      <workItem from="1621409563848" duration="1640000" />
+      <workItem from="1621409563848" duration="2619000" />
     </task>
     <servers />
   </component>
@@ -172,22 +173,22 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="804" y="139" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1621371268048" />
-    <state width="659" height="193" key="GridCell.Tab.0.bottom" timestamp="1621414484477">
+    <state width="659" height="193" key="GridCell.Tab.0.bottom" timestamp="1621414808592">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="659" height="193" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1621414484477" />
-    <state width="659" height="193" key="GridCell.Tab.0.center" timestamp="1621414484477">
+    <state width="659" height="193" key="GridCell.Tab.0.bottom/0.0.1366.768@0.0.1366.768" timestamp="1621414808592" />
+    <state width="659" height="193" key="GridCell.Tab.0.center" timestamp="1621414808592">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="659" height="193" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1621414484477" />
-    <state width="659" height="193" key="GridCell.Tab.0.left" timestamp="1621414484477">
+    <state width="659" height="193" key="GridCell.Tab.0.center/0.0.1366.768@0.0.1366.768" timestamp="1621414808592" />
+    <state width="659" height="193" key="GridCell.Tab.0.left" timestamp="1621414808592">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="659" height="193" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1621414484477" />
-    <state width="659" height="193" key="GridCell.Tab.0.right" timestamp="1621414484477">
+    <state width="659" height="193" key="GridCell.Tab.0.left/0.0.1366.768@0.0.1366.768" timestamp="1621414808592" />
+    <state width="659" height="193" key="GridCell.Tab.0.right" timestamp="1621414808592">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state width="659" height="193" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1621414484477" />
+    <state width="659" height="193" key="GridCell.Tab.0.right/0.0.1366.768@0.0.1366.768" timestamp="1621414808592" />
     <state x="814" y="282" key="git4idea.ui.GitResetDialog" timestamp="1621409493981">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
