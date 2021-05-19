@@ -10,21 +10,21 @@ import useProject from "./hooks/useProject";
 
 const API_URL = "http://localhost:3010";
 
-// const AdComponent = () => {
-//
-//     useEffect(
-//         () => (window.adsbygoogle = window.adsbygoogle || []).push({}),
-//         []
-//     )
-//
-//     return (
-//         <ins className='adsbygoogle'
-//              style={{ display: 'block' }}
-//              data-ad-client='ca-pub-12121212'
-//              data-ad-slot='12121212'
-//              data-ad-format='auto' />
-//     )
-// }
+const AdComponent = () => {
+
+    useEffect(
+        () => (window.adsbygoogle = window.adsbygoogle || []).push({}),
+        []
+    )
+
+    return (
+        <ins className='adsbygoogle'
+             style={{ display: 'block' }}
+             data-ad-client='ca-pub-9399136367222418'
+             data-ad-slot='12121212'
+             data-ad-format='auto' />
+    )
+}
 
 
 const MessagesList = () => {
@@ -69,7 +69,7 @@ const RightColumn = () => {
             <br/>
 
             <div className="w3-card w3-round w3-white w3-padding-16 w3-center">
-                {/*<AdComponent/>*/}
+                <AdComponent/>
             </div>
             <br/>
 
