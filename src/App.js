@@ -325,6 +325,8 @@ const LeftColumn = () => {
             <div className="w3-col m3">
                 <div className="w3-card w3-round w3-white">
                     <div className="w3-container">
+                        <small className="w3-margin">This site is under construction</small>
+
                         <h4 className="w3-center">Brian Odida</h4>
                         <p className="w3-center">
                             <img src={avatar} className="w3-circle"
@@ -479,7 +481,6 @@ function App() {
     return (
         <div>
             <NavBar/>
-            <p className="w3-margin">This site is under construction</p>
             <PageContainer/>
             <MessagesList/>
             <Footer/>
