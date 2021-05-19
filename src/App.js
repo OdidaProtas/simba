@@ -1,6 +1,6 @@
 import './App.css';
 import avatar from './assets/avatar3.png';
-import React, {Fragment, useEffect, useState} from "react";
+import React, {Fragment, useState} from "react";
 import axios from "axios";
 import node from './assets/node.png'
 import 'draft-js/dist/Draft.css';
@@ -10,21 +10,21 @@ import useProject from "./hooks/useProject";
 
 const API_URL = "http://localhost:3010";
 
-const AdComponent = () => {
-
-    useEffect(
-        () => (window.adsbygoogle = window.adsbygoogle || []).push({}),
-        []
-    )
-
-    return (
-        <ins className='adsbygoogle'
-             style={{ display: 'block' }}
-             data-ad-client='ca-pub-12121212'
-             data-ad-slot='12121212'
-             data-ad-format='auto' />
-    )
-}
+// const AdComponent = () => {
+//
+//     useEffect(
+//         () => (window.adsbygoogle = window.adsbygoogle || []).push({}),
+//         []
+//     )
+//
+//     return (
+//         <ins className='adsbygoogle'
+//              style={{ display: 'block' }}
+//              data-ad-client='ca-pub-12121212'
+//              data-ad-slot='12121212'
+//              data-ad-format='auto' />
+//     )
+// }
 
 
 const MessagesList = () => {
@@ -140,7 +140,7 @@ const SMTPBackend = () => {
                         </button>
                     </p>
                 </form>
-                <a style={{marginLeft: 20}} href="">More details about this project.</a>
+                <a style={{marginLeft: 20}} href="http://localhost:3010">More details about this project.</a>
             </div>
             <hr/>
             <CommentFeedbackEditor/>
@@ -151,7 +151,7 @@ const SMTPBackend = () => {
 
 const STKPush = () => {
 
-    const feedback = useProject();
+    // const feedback = useProject();
 
     const handleSubmit = () => {
 
@@ -183,7 +183,7 @@ const STKPush = () => {
                         </button>
                     </p>
                 </form>
-                <a style={{marginLeft: 20}} href="">More details about this project.</a>
+                <a style={{marginLeft: 20}} href="http://localhost:3010">More details about this project.</a>
             </div>
             <hr/>
             <CommentFeedbackEditor/>
@@ -444,7 +444,7 @@ const NavBar = () => {
     return (
         <div className="w3-top">
             <div className="w3-bar w3-theme-d2 w3-left-align w3-large">
-                <a href="#" className="w3-bar-item  w3-padding-large w3-theme-d4">Dreamer</a>
+                <a href="http://locolhost:3010" className="w3-bar-item  w3-padding-large w3-theme-d4">Dreamer</a>
             </div>
         </div>
     )
